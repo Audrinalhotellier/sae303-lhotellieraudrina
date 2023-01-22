@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./pollution.css" rel="stylesheet" />
+    <script>
+      src = "echarts.min.js";
+    </script>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+
+    <title>SAE 303_Lhotellier_Audrina</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="presentation.svg" />
+      </h1>
+    </header>
+    <main>
+      <div class="headline">
+        <img src="textepresentation.svg" />
+      </div>
+
+      <section>
+        <h2>
+          LA POLLUTION PAR POLLUANT
+
+          <p>
+            Les principaux polluants atmosphériques se classent dans deux
+            grandes familles bien distinctes : les polluants primaires et les
+            polluants secondaires. Les polluants primaires sont directement
+            issus des sources de pollution, qu’elles soient d’origine
+            anthropique (humaine) ou naturelle. On y trouve des gaz tels que
+            :<br /><br />
+            • les oxydes de carbone<br />
+            • les oxydes de soufre<br />
+            • les oxydes d’azote<br />
+            • les hydrocarbures légers<br />
+            • les composés organiques volatils (COV)<br />
+            • les particules contenant ou non des composés métalliques (plomb,
+            mercure, cadmium...) ou organiques.<br /><br />
+            En corse, les principaux polluants sont : le monoxyde d’azote,
+            l’ozone, le dioxyde de soufre et le monoxyde de carbone. Nous
+            pouvons voir les taux de ces derniers en 2022.
+          </p>
+        </h2>
+        <div class="headline">
+          <div id="chart1" style="width: 100%; height: 400px"></div>
+          <p></p>
+        </div>
+      </section>
+      <section>
+        <div class="headline">
+          <img id="graph" src="CORSE USINE.svg" />
+        </div>
+        <h2>
+          LES DIFFERENTES STATION EN CORSE
+          <p>
+            Comme nous pouvons le voir sur le graphique ci-contre les
+            principales stations fixes en Corse sont: <br /><br />
+            • Station trafic : dont l'objectif est de fournir des informations
+            sur les concentrations mesurées dans des zones représentatives du
+            niveau maximal d'exposition auquel la population située en proximité
+            d'une infrastructure routière est susceptible d'être exposée ;
+            <br />
+            • Station industrielle : dont l'objectif est de fournir des
+            informations sur les concentrations représentatives du niveau de
+            pollution induit par des phénomènes de panache ou d'accumulation
+            issu d'une source industrielle ; <br />
+            • Station urbaine : pour le suivi du niveau moyen de la population
+            aux phénomènes de pollution atmosphérique dits « de fond » dans les
+            centres urbains ; <br />• Station périurbaine : pour le suivi du
+            niveau moyen d'exposition de la population aux phénomènes de
+            pollution atmosphérique dits « de fond » à la périphérie du centre
+            urbain ;<br />
+            • Station rurale régionale : pour la surveillance de l'exposition
+            des écosystèmes et de la population à la pollution atmosphérique «
+            de fond » notamment photochimique à l'échelle régionale
+          </p>
+        </h2>
+      </section>
+      <section>
+        <h2>
+          LA POLLUTION SUR LA SANTE
+          <p>
+            Des expositions prolongées aux polluants peuvent créer des effets
+            sur la santé. Les effets ne sont pas tous les mêmes. En effet, comme
+            nous pouvons le voir ci-dessous pour :<br>
+             • L’ammoniac : l’exposition à
+            de très fortes concentrations provoque des irritations, voire des
+            brûlures oculaires et respiratoires. <br>
+            • Dioxyde de Soufre :
+            irritations des voies respiratoires (toux, gêne respiratoire,
+            asthme).<br>
+             • Hydrocarbures et composés volatils : irritations,
+            difficultés respiratoires, nuisances olfactives fréquentes. • Le
+            benzène est classé cancérigène pour l’Homme.<br>
+             • Oxydes d’azote : à
+            court terme, irritations et aggravations de maladies respiratoires
+            (asthme) et à long terme, développement de maladies respiratoires ou
+            cardiovasculaires, faible poids du nourrisson et risque accru de
+            décès. • Ozone : gêne respiratoire, toux, irritations des yeux,
+            crises d’asthme, apparition de maladies respiratoires.<br> • Particules
+
+            ou matières particulaires : à long terme, développement de cancers
+            (poumon, vessie), maladies cardiovasculaires et respiratoires,
+            atteinte du développement neurologique de l’enfant ou encore
+            diabète. 
+            <br>
+          </p>
+        </h2>
+        <div class="headline">
+          <img id="graph" src="SANTE2.svg" />
+        </div>
+      </section>
+      <section>
+        <div class="headline">
+          <div id="chart2" style="width: 100%; height: 400px"></div>
+        </div>
+        <h2>
+          LA POLLUTION PAR INFLUENCE
+          <p>
+            Comme vu précédemment plusieurs types de station existes. Ces
+            stations sont réparties en deux groupes. Nous pouvons observer les
+            données collectées en Corse avec les données ci-contre: <br /><br />
+            • station de fond (urbaine, périurbaine, rurale régionale, rurale
+            nationale) : une station de fond est une station relativement
+            éloignée de toute source de pollution proche, par opposition à une
+            station de proximité. Cette station de fond ne subit donc pas les
+            impacts immédiats d'une source de pollution, et permet au contraire
+            de mesurer un air moyen, un air « de fond », dans le secteur
+            concerné ;<br />
+            • station de proximité (trafic, industrielle) : station (fixe ou
+            mobile), située à proximité plus ou moins grande de la source
+            émettrice qu'elle est censée mesurer. Exemple : le cas d'une station
+            située au bord d'un axe important de circulation, d'un carrefour, ou
+            à proximité d'un émetteur industriel, et capable d'en relever les
+            émissions polluantes.
+          </p>
+        </h2>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.1/dist/echarts.js"></script>
+
+    <script>
+      fetch("./pollution.json")
+        .then((response) => response.json())
+        .then((json) => {
+          const groupBytest = json.reduce((acc, current) => {
+            const test = current["nom_poll"];
+            if (!acc[test]) {
+              acc[test] = [];
+            }
+
+            acc[test].push(current);
+
+            return acc;
+          }, {});
+
+          const groupByage = json.reduce((acc, current) => {
+            const age = current["nom_dept"];
+            if (!acc[age]) {
+              acc[age] = [];
+            }
+
+            acc[age].push(current);
+            return acc;
+          }, {});
+
+          const groupByInfluence = json.reduce((acc, current) => {
+            const influence = current["influence"];
+            if (!acc[influence]) {
+              acc[influence] = [];
+            }
+
+            acc[influence].push(current);
+            return acc;
+          }, {});
+
+          // Initialize the echarts instance based on the prepared dom
+          const myChart = echarts.init(document.querySelector("#chart1"));
+          const myChart2 = echarts.init(document.querySelector("#chart2"));
+
+          // Specify the configuration items and data for the chart
+          const option = {
+            color: ["#5d1b00"],
+            toolbox: {
+              show: true,
+              feature: {
+                dataZoom: {
+                  yAxisIndex: "none",
+                },
+                dataView: {
+                  readOnly: false,
+                },
+                magicType: {
+                  type: ["line", "bar"],
+                },
+                restore: {},
+                saveAsImage: {},
+              },
+            },
+            tooltip: {},
+            legend: {
+              orient: "vertical",
+              right: "auto",
+            },
+            xAxis: {
+              name: "Polluant",
+              data: [
+                "Monoxyde d'azote",
+                "Oxydes d'azote",
+                "Dioxyde d'azote",
+                "Ozone",
+                "Particules PM10",
+                "Dioxyde de soufre",
+                "Particules fines PM2,5",
+                "Monoxyde de carbone",
+              ],
+            },
+            yAxis: {},
+            series: [
+              {
+                name: "Taux de pollution",
+                type: "line",
+                data: Object.values(groupBytest).map(
+                  (cascovid) => cascovid.length
+                ),
+              },
+            ],
+          };
+
+          const option2 = {
+            color: ["#5d1b00"],
+            toolbox: {
+              show: true,
+              feature: {
+                dataZoom: {
+                  yAxisIndex: "none",
+                },
+                dataView: {
+                  readOnly: false,
+                },
+                magicType: {
+                  type: ["line", "bar"],
+                },
+                restore: {},
+                saveAsImage: {},
+              },
+            },
+            tooltip: {},
+            legend: {
+              orient: "vertical",
+              right: "auto",
+            },
+            xAxis: {
+              name: "Influence",
+              data: ["Fond", "Industrielle", "Trafic"],
+            },
+            yAxis: {},
+            series: [
+              {
+                name: "Influence",
+                type: "bar",
+                data: Object.values(groupByInfluence).map(
+                  (cascovid2) => cascovid2.length
+                ),
+              },
+            ],
+          };
+
+          // Display the chart using the configuration items and data just specified.
+          myChart.setOption(option);
+          myChart2.setOption(option2);
+        });
+    </script>
+
+    <footer>
+      <div class="headline">
+        <img src="footer.svg" />
+      </div>
+    </footer>
+
+    <script>
+      ScrollReveal().reveal(".headline", { delay: 500 });
+    </script>
+  </body>
+</html>

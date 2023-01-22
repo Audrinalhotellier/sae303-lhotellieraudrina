@@ -1,0 +1,58 @@
+body{background-color: #e8dfcf;
+}
+
+header h1 {
+    animation: animation-titre 3s;
+}
+
+h2{
+    margin-left: 50px;
+}
+#chart1{
+    margin-left: 50px;
+    margin-top: 40PX;
+    margin-right: 50PX;
+}
+
+#chart2{
+    margin-left: 50px;
+    margin-top: 40PX;
+    margin-right: 50PX;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color:#5d1b00;
+}
+
+.droite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 17px;
+}
+
+#corse{
+    width: 600px;
+}
+
+@keyframes animation-titre {
+    0%{
+        transform: scale(200%, 200%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+}
